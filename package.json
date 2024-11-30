@@ -12,6 +12,7 @@
   },
   "homepage": "https://abdelghafor-gh.github.io/portfolio",
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
