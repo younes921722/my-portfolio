@@ -30,16 +30,18 @@ const projects = [
     },
   },
   {
-    title: 'Facial Emotion Detection',
+    title: 'Real-time Data Pipeline',
     description:
-      'Developed a real-time facial emotion detection application using deep learning. Implemented CNN architecture for accurate emotion classification from video feed.',
-    technologies: ['CNN', 'OpenCV', 'TensorFlow', 'Python'],
-    tags: ['Computer Vision', 'Deep Learning'],
-    titleColor: 'group-hover:text-orange-500',
+      'Real-time data engineering pipeline I built. Data flows from an API, processed by Apache Airflow and Spark, into Cassandra and PostgreSQL databases. A control center and schema registry manage data quality, using Docker containers for deployment and a tiered ("Bronze"/"Gold") data approach.',
+    technologies: ['Apache Airflow', 'Apache Spark', 'Cassandra', 'PostgreSQL', 'Docker', 'Data Pipeline'],
+    tags: ['Schema Registry', 'Real-time Processing'],
+    imageUrl: '/assets/images/DataFlowArch.png',
+    titleColor: 'group-hover:text-purple-500',
     links: {
-      github: '#',
+      github: 'https://github.com/younes921722/Real-Time-Data-Pipeline',
     },
   },
+  
   {
     title: 'Breast Cancer Classification',
     description:
@@ -52,6 +54,18 @@ const projects = [
     },
   },
   {
+    title: 'Facial Emotion Detection',
+    description:
+      'Developed a real-time facial emotion detection application using deep learning. Implemented CNN architecture for accurate emotion classification from video feed.',
+    technologies: ['CNN', 'OpenCV', 'TensorFlow', 'Python'],
+    tags: ['Computer Vision', 'Deep Learning'],
+    titleColor: 'group-hover:text-orange-500',
+    links: {
+      github: '#',
+    },
+  },
+  
+  {
     title: 'NLP Spelling Corrector',
     description:
       'Developed an automatic spelling correction system using NLP techniques. Implemented various text processing algorithms for accurate error detection and correction.',
@@ -60,18 +74,6 @@ const projects = [
     titleColor: 'group-hover:text-violet-500',
     links: {
       github: '#',
-    },
-  },
-  {
-    title: 'Real-time Data Pipeline',
-    description:
-      'Real-time data engineering pipeline I built. Data flows from an API, processed by Apache Airflow and Spark, into Cassandra and PostgreSQL databases. A control center and schema registry manage data quality, using Docker containers for deployment and a tiered ("Bronze"/"Gold") data approach.',
-    technologies: ['Apache Airflow', 'Apache Spark', 'Cassandra', 'PostgreSQL', 'Docker', 'Data Pipeline'],
-    tags: ['Schema Registry', 'Real-time Processing'],
-    imageUrl: '/assets/images/DataFlowArch.png',
-    titleColor: 'group-hover:text-purple-500',
-    links: {
-      github: 'https://github.com/younes921722/Real-Time-Data-Pipeline',
     },
   },
 ]
