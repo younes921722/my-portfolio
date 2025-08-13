@@ -44,7 +44,7 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Data & AI
+            Data and AI
             <span className="block bg-gradient-to-r from-primary to-primary/50 bg-clip-text text-transparent">
               Engineer
             </span>
