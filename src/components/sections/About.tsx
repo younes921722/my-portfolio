@@ -28,11 +28,11 @@ const About = () => {
             <div className="flex-1 space-y-4">
               <h3 className="text-xl font-semibold">Background</h3>
               <p className="text-muted-foreground">
-                I am a final year Data Engineering student at the National School of Applied Sciences 
-                Al Hoceima (ENSAH), passionate about data engineering, machine learning, and natural 
-                language processing. With hands-on experience in building data pipelines, developing 
-                AI applications, and creating business intelligence solutions, I am constantly seeking 
-                to expand my knowledge and tackle challenging projects.
+                Data and AI Engineer, recently graduated from
+the National School of Applied Sciences of Al
+Hoceima, eager to apply my expertise in data engineering
+and artificial intelligence to innovative
+projects.
               </p>
             </div>
           </div>
