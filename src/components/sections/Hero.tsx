@@ -44,9 +44,9 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="text-4xl font-bold sm:text-5xl md:text-6xl lg:text-7xl"
           >
-            Data Engineering
+            Data & AI
             <span className="block bg-gradient-to-r from-primary to-primary/50 bg-clip-text text-transparent">
-              Student
+              Engineer
             </span>
           </motion.h1>
 
@@ -56,9 +56,11 @@ const Hero = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="mx-auto max-w-[600px] text-muted-foreground"
           >
-            Final year Data Engineering student at ENSAH, passionate about Data Engineering, 
-            Machine Learning, and Natural Language Processing. Seeking a final year internship 
-            starting February 2025 to contribute my skills to innovative projects.
+            Data and AI Engineer, recently graduated from
+the National School of Applied Sciences of Al
+Hoceima, eager to apply my expertise in data engineering
+and artificial intelligence to innovative
+projects.
           </motion.p>
         </div>
 
