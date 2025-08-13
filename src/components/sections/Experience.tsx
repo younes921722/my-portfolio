@@ -5,6 +5,17 @@ import { Building2, Calendar } from 'lucide-react'
 
 const experiences = [
   {
+  title: "Data and AI Engineer (PFE Intern) | Applicant Tracking System",
+  company: "DNA Company",
+  location: "Casablanca, Morocco",
+  date: "February 2025 – August 2025",
+  description: [
+    "Built a Retrieval-Augmented Generation (RAG) system to retrieve top-k candidates using Qdrant for similarity search and re-rankers to optimize candidate matching.",
+    "Developed a scheduler agent leveraging LangGraph and Model Context Protocol to automate meeting scheduling with candidates, enhancing recruitment efficiency."
+  ],
+  stack: ["Python", "Qdrant", "LangGraph", "RAG", "FastApi", "MCP"]
+},  
+  {
     title: 'Generative AI Developer Intern',
     company: 'Berexia',
     location: 'Remote',
