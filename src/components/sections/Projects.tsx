@@ -35,7 +35,7 @@ const projects = [
       'Real-time data engineering pipeline I built. Data flows from an API, processed by Apache Airflow and Spark, into Cassandra and PostgreSQL databases. A control center and schema registry manage data quality, using Docker containers for deployment and a tiered ("Bronze"/"Gold") data approach.',
     technologies: ['Apache Airflow', 'Apache Spark', 'Cassandra', 'PostgreSQL', 'Docker', 'Data Pipeline'],
     tags: ['Schema Registry', 'Real-time Processing'],
-    imageUrl: '/assets/images/DataFlowArch.png',
+    imageUrl: 'assets/images/DataFlowArch.png',
     titleColor: 'group-hover:text-purple-500',
     links: {
       github: 'https://github.com/younes921722/Real-Time-Data-Pipeline',
