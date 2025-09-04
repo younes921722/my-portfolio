@@ -41,7 +41,18 @@ const projects = [
       github: 'https://github.com/younes921722/Real-Time-Data-Pipeline',
     },
   },
-  
+  {
+    title: 'Fine-tuning Gemma3-1B on DoDa',
+    description:
+      'Fine-tuned Gemma3-1B on the DoDa document dataset using a single NVIDIA T4 GPU. Used parameter-efficient techniques (LoRA) and 4-bit quantization (bitsandbytes) to fit the model in memory, producing improved document understanding and QA performance on domain-specific tasks.',
+    technologies: ['Gemma3-1B', 'LoRA', 'bitsandbytes', 'PyTorch', 'Hugging Face', 'DoDa', 'NVIDIA T4'],
+    tags: ['Fine-tuning', 'NLP', 'Document Understanding'],
+    image: 'assets/images/gemma3-finetune.jpeg',
+    titleColor: 'group-hover:text-teal-500',
+    links: {
+      github: 'https://github.com/younes921722/Fine-tuning-gemma3-1b-on-Darija-to-English-translation-task', // replace with your repo URL when available
+    },
+  },
   {
     title: 'Breast Cancer Classification',
     description:
@@ -76,6 +87,7 @@ const projects = [
       github: '#',
     },
   },
+  
 ]
 
 const Projects = () => {
