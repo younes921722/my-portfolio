@@ -51,7 +51,7 @@ const projects = [
   image: 'assets/images/impact-learning.png',
   titleColor: 'group-hover:text-yellow-500',
   links: {
-    github: 'https://github.com/younes921722', // replace with the repo if you plan to upload
+    github: 'https://github.com/younes921722',
   },
 },
   {
