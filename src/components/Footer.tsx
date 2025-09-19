@@ -1,6 +1,6 @@
 'use client'
 
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { Youtube,Github, Linkedin, Mail } from 'lucide-react'
 
 const Footer = () => {
   return (
@@ -34,6 +34,15 @@ const Footer = () => {
             aria-label="Send Email"
           >
             <Mail className="h-5 w-5" />
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=r1FkifkOdvA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted-foreground transition-colors hover:text-foreground"
+            aria-label="Youtube Channel"
+          >
+            <Youtube className="h-5 w-5" />
           </a>
         </div>
       </div>

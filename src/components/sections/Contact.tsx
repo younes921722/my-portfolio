@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
-import { Github, Linkedin, Mail, Send } from 'lucide-react'
+import { Youtube, Github, Linkedin, Mail, Send } from 'lucide-react'
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 
@@ -110,6 +110,17 @@ const Contact = () => {
                 <Linkedin className="h-4 w-4" />
                 <span>linkedin.com/in/younes-saouabeddine-374802219</span>
               </a>
+              <a
+              href="https://www.youtube.com/watch?v=r1FkifkOdvA"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground"
+              aria-label="Youtube Channel"
+              >
+                <Youtube className="h-4 w-4" />
+                <span>https://www.youtube.com/watch?v=r1FkifkOdvA</span>
+            </a>
+              
             </div>
           </motion.div>
 
