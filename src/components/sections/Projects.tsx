@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import { Github } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+import { image } from 'framer-motion/client'
 
 const projects = [
   {
@@ -18,6 +19,18 @@ const projects = [
     },
   },
   {
+    title: 'RAG Backend (FastAPI, Qdrant, Gemini/OpenAI/Cohere)',
+    description:
+      'Retrieval-Augmented Generation (RAG) backend built with FastAPI and structured around the MVC design pattern. Provides a RESTful API for document ingestion, processing, and intelligent querying by combining vector database search (Qdrant) with large language models such as Gemini, OpenAI, and Cohere. Manages projects and data through controllers, models, and routes, supports Docker deployment, and includes a Postman collection for testing—serving as a foundation for chatbots and knowledge assistants.',
+    technologies: ['FastAPI', 'Python', 'Qdrant', 'Docker', 'Gemini', 'OpenAI', 'Cohere', 'Postman', 'MVC'],
+    tags: ['RAG', 'Backend', 'Vector DB'],
+    image: 'assets/images/rag.gif',
+    titleColor: 'group-hover:text-cyan-500',
+    links: {
+      github: 'https://github.com/younes921722/Rag-Api-App',
+    },
+  },
+  {
     title: 'Intelligent Conversational Agent',
     description:
       'Built an AI-powered agent for natural language data querying from CSV and Excel files. Integrated language models for understanding user queries and retrieving relevant data.',
@@ -29,6 +42,18 @@ const projects = [
       github: 'https://github.com/younes921722/Chat-With-Tabular-Data?tab=readme-ov-file',
     },
   },
+  {
+  title: 'Impact of Learning on Students',
+  description:
+    'Developed an interactive Power BI dashboard to analyze student survey data across 8 branches. Visualized insights on learning resources, IT modules, and practical labs through bar charts, treemaps, and donut charts with dynamic filters and slicers.',
+  technologies: ['Power BI', 'Data Visualization', 'DAX', 'Excel', 'Google Forms'],
+  tags: ['Business Intelligence', 'Education Analytics'],
+  image: 'assets/images/impact-learning.png',
+  titleColor: 'group-hover:text-yellow-500',
+  links: {
+    github: 'https://github.com/younes921722', // replace with the repo if you plan to upload
+  },
+},
   {
     title: 'Real-time Data Pipeline',
     description:
@@ -59,9 +84,10 @@ const projects = [
       'Created a machine learning application for breast cancer classification using the Kaggle dataset. Implemented various ML algorithms and deployed using Flask.',
     technologies: ['Machine Learning', 'Python', 'Flask', 'Scikit-learn'],
     tags: ['Healthcare', 'Machine Learning'],
+    image : 'assets/images/bcc.png',
     titleColor: 'group-hover:text-pink-500',
     links: {
-      github: '#',
+      github: 'https://github.com/younes921722/Breast-Cancer-Classification',
     },
   },
   {
@@ -72,7 +98,7 @@ const projects = [
     tags: ['Computer Vision', 'Deep Learning'],
     titleColor: 'group-hover:text-orange-500',
     links: {
-      github: '#',
+      github: 'https://github.com/younes921722/Facial-emotion-detection',
     },
   },
   
