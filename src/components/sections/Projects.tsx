@@ -18,6 +18,18 @@ const projects = [
 		},
 	},
 	{
+    title: 'Strategic Cash Flow & Treasury Analytics',
+    description:
+        'Architected an end-to-end treasury management solution for real-time liquidity monitoring. Engineered complex DAX measures to calculate cash flow variances, forecast accuracy, and dynamic treasury balances (Solde de Trésorerie) across multi-entity data sources.',
+    technologies: ['Power BI', 'DAX', 'Power Query', 'SQL'],
+    tags: ['Financial Engineering', 'Business Intelligence'],
+    image: 'assets/images/cashFlowDashboard_1.png', // Update with your actual image path
+    titleColor: 'group-hover:text-emerald-500',
+    links: {
+        github: 'https://github.com/younes921722/', // Update with your actual repo link
+    },
+},
+	{
 		title: 'RAG Backend (FastAPI, Qdrant, Gemini/OpenAI/Cohere)',
 		description:
 			'Retrieval-Augmented Generation (RAG) backend built with FastAPI and structured around the MVC design pattern. Provides a RESTful API for document ingestion, processing, and intelligent querying by combining vector database search (Qdrant) with large language models such as Gemini, OpenAI, and Cohere. Manages projects and data through controllers, models, and routes, supports Docker deployment, and includes a Postman collection for testing—serving as a foundation for chatbots and knowledge assistants.',
