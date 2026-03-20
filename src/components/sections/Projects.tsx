@@ -132,7 +132,7 @@ const projects = [
         'Architected a sophisticated BI ecosystem integrating diverse data streams (SQL Server, XML, Access, and Cloud datasets). Engineered a high-density analytical layer using advanced DAX for YTD/MTD growth tracking and deployed complex visualizations like Sankey and Chord diagrams to map multi-dimensional relationships between vehicle specs and market demand.',
     technologies: ['Power BI', 'Advanced DAX', 'SQL Server', 'Power Query', 'ETL'],
     tags: ['Data Architecture', 'Market Intelligence', 'Geospatial Analysis'],
-    image: 'assets/images/Automotive-Sales-Pro.png',
+    image: 'assets/images/car_sales_dashboard.png',
     titleColor: 'group-hover:text-blue-500',
     links: {
         github: 'https://younes921722.github.io/my-portfolio',
