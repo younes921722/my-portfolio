@@ -35,7 +35,7 @@ const projects = [
         'Developed a high-impact financial tracking system to monitor Total Revenue (CA HT) and payment collection cycles. Implemented automated status aging (Ok vs. A recouvrer) and multi-dimensional analysis of payment realization rates to reduce DSO (Days Sales Outstanding).',
     technologies: ['Power BI', 'DAX', 'Data Visualization', 'Excel'],
     tags: ['Revenue Operations', 'Financial Analytics'],
-    image: 'assets/images/Revenue-dashboard.png', 
+    image: 'assets/images/CA_Dashboard.png', 
     titleColor: 'group-hover:text-pink-500', // Adjusted to match the dashboard's primary theme
     links: {
         github: 'https://github.com/younes921722/', 
