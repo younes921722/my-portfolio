@@ -29,6 +29,18 @@ const projects = [
         github: 'https://github.com/younes921722/', // Update with your actual repo link
     },
 },
+{
+    title: 'Revenue & Accounts Receivable Intelligence',
+    description:
+        'Developed a high-impact financial tracking system to monitor Total Revenue (CA HT) and payment collection cycles. Implemented automated status aging (Ok vs. A recouvrer) and multi-dimensional analysis of payment realization rates to reduce DSO (Days Sales Outstanding).',
+    technologies: ['Power BI', 'DAX', 'Data Visualization', 'Excel'],
+    tags: ['Revenue Operations', 'Financial Analytics'],
+    image: 'assets/images/Revenue-dashboard.png', 
+    titleColor: 'group-hover:text-pink-500', // Adjusted to match the dashboard's primary theme
+    links: {
+        github: 'https://github.com/younes921722/', 
+    },
+},
 	{
 		title: 'RAG Backend (FastAPI, Qdrant, Gemini/OpenAI/Cohere)',
 		description:
